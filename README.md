@@ -1,20 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
+# React Facts App ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project that displays fun facts about React using reusable components.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Component-based structure (Header + Main Content)
+* Clean UI with basic styling
+* Built using React + Vite
+* Demonstrates JSX and props usage
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript (ES6)
+* CSS
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-facts-static-site
->>>>>>> 4abfd88c0d0445a4f6b798f4bbe97704f83e6a60
+```
+src/
+ ├── App.jsx
+ ├── Header.jsx
+ ├── MainComponent.jsx
+ ├── Facts.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+## 📸 Screenshots
+
+### 🔹 Final Output
+
+![alt text](image.png)
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/arpitagarwal2906/react-facts-static-site.git
+cd react-facts-vite-app
+npm install
+npm run dev
+```
+
+## 📌 Learnings
+
+* Understanding React components
+* JSX rendering
+* File structure in React projects
+* Basic styling with CSS
+
+## 🤝 Contributing
+
+This is a beginner project, but feel free to fork and improve it.
+
+## 📜 License
+
+This project is open-source and free to use.
