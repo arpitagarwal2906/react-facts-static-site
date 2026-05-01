@@ -1,7 +1,10 @@
 function Header() {
   return (
-    <header>
-      <img src="./public/react-logo.png" alt="react-logo" width="400px" />
+    <header className="header">
+      <nav>
+        <img src="./public/react-logo.png" alt="react-logo" />
+        <span>ReactFacts</span>
+      </nav>
     </header>
   );
 }
